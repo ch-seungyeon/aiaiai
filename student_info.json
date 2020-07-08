@@ -1,0 +1,24 @@
+{
+    "Students": [
+        {"id":"abc",
+        "pw" : "1234",
+        "name" : "김상민",
+        "dream" : "마지막처럼",
+        "interesting" : "bigdata",
+        "age" : 30
+     },
+        {"id":"j262",
+        "pw" : "j26!@",
+        "name" : "장이욱",
+        "dream" : "무사히 수료하자",
+        "interesting" : "bigdata",
+        "age" : 38
+     },
+        {"id":"csy",
+        "pw" : "3326",
+        "name" : "최승연",
+        "dream" : "화이팅화이팅",
+        "interesting" : "오늘 아침 메뉴",
+        "age" : 21
+    }]
+}
