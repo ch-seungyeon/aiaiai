@@ -77,9 +77,8 @@ class traffic:
         print(f'출발시간 : {self.start}/ 도착시간 : {self.arrive}')
 
 class air(traffic):
-    def __init__(self, start, arrive, contents):
-        self.start = start
-        self.arrive = arrive
+    def __init__(self, name, price, start, arrive, contents):
+        super().__init__(self, name, price, start, arrive)
         self.contents = contents
 
     def cont(self):
@@ -89,9 +88,8 @@ class air(traffic):
             print('이 비행기는 수하물을 못맡깁니다!')
 
 class train(traffic):
-    def __init__(self, start, arrive, seats):
-        self.start = start
-        self.arrive = arrive
+    def __init__(self, name, price, start, arrive, seats):
+        super().__init__(self, name, price, start, arrive)
         self.seats = seats
     def seat(self):
         print(f'좌석 등급 : {self.seats}')
@@ -101,3 +99,4 @@ class train(traffic):
 
 
 # 파이썬 io 하는거 2 문제
+
